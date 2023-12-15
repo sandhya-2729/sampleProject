@@ -1,0 +1,38 @@
+.container{
+    padding: 30px 30px;
+}
+.container .header{
+    display: flex;
+    justify-content: space-between;
+}
+.container .header h3{
+    font-weight: bold;
+    font-size: 15px;
+}
+.container .actions{
+    display: flex;
+}
+.container .actions form{
+    margin-right: 20px;
+}
+.container .actions button{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.container .actions .search-form{
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 200px;
+    background-color: #eee;
+  }
+  .container .actions .search-form input{
+    border: none;
+    background-color: #eee;
+    padding: 0px 5px;
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+  .container .actions .search-form label{
+    margin-left: 12px;
+  }

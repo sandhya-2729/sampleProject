@@ -1,0 +1,41 @@
+h3{
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 2px;
+    padding: 15px 20px;
+}
+.container{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+mat-divider{
+    margin-top: 40px;
+    width: 290px;
+    margin-left: 20px;
+}
+.container .container-box {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    width: 300px;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 15px;
+    /* margin-top: 10px; */
+}
+.container .container-box #box{
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.container .container-box i{
+    margin-left: 18px;
+}
+.container .container-box .verticle-line-1{
+    height: 85px;
+    border-left: 1px solid #797575;
+}
+.container .container-box .verticle-line-2{
+    height: 85px;
+    border-left: 1px solid #797575;
+}

@@ -1,0 +1,8 @@
+.labels{
+   display: flex;
+   font-weight: bold;
+   padding: 0px 200px;
+}
+.labels label{
+    margin-left: 50px;
+}

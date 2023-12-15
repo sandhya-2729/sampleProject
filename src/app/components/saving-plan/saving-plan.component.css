@@ -1,0 +1,87 @@
+.savingPlan{
+    display: flex;
+    justify-content: space-between;
+}
+.savingPlan i{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 5px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin-top: 15px;
+}
+.container{
+    height: 160px;
+    width: 300px;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+}
+.container .savingPlan-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .savingPlan-container .watch{
+    height: 35px;
+    width: 40px;
+    border: 0.5px solid #000000;
+    border-radius: 6px;
+}
+.container .savingPlan-container .watch #time{
+    padding: 12px;
+}
+.container .savingPlan-container .newWatch{
+    position: relative;
+    right: 55px;
+    font-weight: bold;
+}
+.container .savingPlan-container #bars-icon{
+    margin-right: 20px;
+    margin-top: 8px;
+    font-size: 20px;
+}
+.container .progress-container{
+    position: relative;
+    margin-top: 60px;
+}
+.container .progress-container .percent{
+    margin-left: 160px;
+}
+.container-2{
+    height: 150px;
+    width: 300px;
+    border: 0.5px solid #000000;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.container-2 .savingPlan-container-2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.container-2 .savingPlan-container-2 .watch{
+    height: 35px;
+    width: 40px;
+    border: 0.5px solid #000000;
+    border-radius: 6px;
+}
+.container-2 .savingPlan-container-2 .watch #time{
+    padding: 12px;
+}
+.container-2 .savingPlan-container-2 .playStation{
+    position: relative;
+    right: 55px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.container-2 .savingPlan-container-2 #bars-icon{
+    margin-right: 20px;
+    margin-top: 8px;
+    font-size: 20px;
+}

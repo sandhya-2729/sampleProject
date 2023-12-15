@@ -1,0 +1,33 @@
+<div class="table">
+    <table>
+        <thead>
+            <tr style="background-color: #eee; height: 50px;" >
+                <th>Date</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Type</th>
+                <th>Time</th>
+                <th>Amount</th>
+                <th>Action</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of tableData">
+                <td>{{data.Date}}</td>
+                <td>
+                    <img src="../../../assets/img2.png.svg" alt="" style="height: 15px; width: 15px; border-radius: 50%;">
+                    {{data.Name}}</td>
+                <td>{{data.Status}}
+                <button mat-raised-button style="color: rgb(30, 185, 107); background-color: #eee; border-radius: 5px; font-size: 10px; height: 20px; width: 20px;">Success</button></td>
+                <td>{{data.Type}}</td>
+                <td>{{data.Time}}</td>
+                <td>{{data.Amount}}</td>
+                <td>{{data.Action}}
+                    <i class="fa fa-bars"></i>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>

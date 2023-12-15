@@ -1,0 +1,74 @@
+
+    <mat-drawer-container>
+        <mat-drawer class="drawer" mode="side" opened>
+           <div class="header">
+            <a href="">
+                <i class="fa fa-shopping-basket"></i>
+                <h3>Hexa Bank</h3>
+                <i class="fa fa-angle-left"></i>
+            </a>
+           </div>
+    
+           <div class="header-1">
+            <a href="">
+                <img src="../../../assets/img.jp.jpg" alt="">
+                <h3>Akmal Nasrullah</h3>
+                <i class="fa fa-angle-right"></i>
+            </a>
+           </div>
+    
+           <mat-divider></mat-divider>
+    
+        <div class="menu">
+            <h3> MENU </h3>
+            <mat-list role="list">
+                <mat-list-item role="listitem" class="overview">
+                    <i class="fa fa-shopping-basket" id="icon"></i>Overview
+                    <i class="fa fa-location-arrow" id="location-icon"></i>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                    <i class="fa fa-bars" id="icon"></i>Transactions
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                    <i class="fa fa-bars" id="icon"></i>Analytics
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                    <i class="fa fa-bars" id="icon"></i>Cards
+                </mat-list-item>
+            </mat-list>
+        </div>
+    
+           <mat-divider></mat-divider>
+           
+           <div class="general">
+              <h3> GENERAL </h3>
+              <mat-list role="list">
+                <mat-list-item role="listitem">
+                    <i class="fa fa-shopping-basket" id="icon-2"></i>Settings
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                    <i class="fa fa-bars" id="icon-2"></i>Help/Support
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                    <i class="fa fa-bars" id="icon-2"></i>Dark Mode
+                    <i class="fa fa-toggle-on" id="toggle"></i>
+                </mat-list-item>
+                </mat-list>
+           </div>
+    
+           <mat-divider></mat-divider>
+    
+           <div class="box">
+            <div class="background">
+                <i class="fa fa-plus" id="new-payment-icon"></i>
+            </div>
+              <h3>New Payment</h3>
+            </div>
+        </mat-drawer>
+       
+        <mat-drawer-content class="content">
+            <app-toolbar></app-toolbar>
+            <app-grid></app-grid>
+        </mat-drawer-content>
+    </mat-drawer-container>
+

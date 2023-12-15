@@ -1,0 +1,138 @@
+/* *{
+    overflow-x: hidden;
+} */
+mat-drawer-container{
+    height: 153%;
+    width: 100%;  
+    overflow: hidden;
+}
+mat-drawer-container> .drawer{
+    width: 285px;
+    background-color: #eee;
+    border: none;
+
+}
+
+mat-drawer-container>mat-drawer{
+    padding: 16px; 
+    
+}
+mat-drawer-container> .drawer .header a{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+mat-drawer-container> .drawer .header i{
+    font-weight: bold;
+    font-size: 30px;
+}
+mat-drawer-container> .drawer .header h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+mat-drawer-container> .drawer .header-1 a{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    justify-content: space-around;
+}
+mat-drawer-container> .drawer .header-1 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+mat-drawer-container> .drawer .header-1 i{
+    font-weight: bold;
+    font-size: 30px;
+}
+mat-drawer-container> .drawer .header-1 h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+mat-drawer-container> .drawer .header-1{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+mat-drawer-container> .drawer mat-divider{
+    margin-top: 25px;
+}
+mat-drawer-container> .drawer .menu h3{
+    font-weight: bold;
+    margin-top: 20px;
+}
+mat-drawer-container> .drawer .menu .overview{
+    font-weight: bold;
+    height: 50px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+  
+}
+mat-list{
+    padding: 20px;
+    
+}
+mat-list-item{
+    margin-top: 20px;
+}
+mat-drawer-container> .drawer .menu #icon{
+    font-size: 20px;
+    margin-right: 20px;
+}
+mat-drawer-container> .drawer .general #icon-2{
+    font-size: 20px;
+    margin-right: 20px;
+}
+mat-drawer-container> .drawer .general #toggle{
+    margin-left: 25px;
+}
+mat-drawer-container> .drawer .box{
+    height: 160px;
+    width: 200px;
+    border: 1px dashed black;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+mat-drawer-container> .drawer .box .background i{
+    margin-top: 8px;
+    margin-left: 9px;
+    font-size: 25px;
+    color: #fff;
+   
+}
+mat-drawer-container> .drawer .box .background{
+    margin-top: 50px;
+    margin-left: 75px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #eee;
+    
+}
+mat-drawer-container> .drawer .box h3{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+mat-drawer-container> .drawer .menu #location-icon{
+    font-size: 25px;
+    padding: 25px;
+
+}
+mat-drawer-content{
+    background-color: #eee;
+    height: auto;
+    
+}
+
+
+
+

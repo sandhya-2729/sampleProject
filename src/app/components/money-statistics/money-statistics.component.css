@@ -1,0 +1,35 @@
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ }
+ .container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container .header .button button{
+   margin-right: 25px;
+}
+.container .container-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 18px;
+    margin-top: 10px;
+}
+.container .container-1 .verticle-line-1{
+    height: 110px;
+    border-left: 1px solid #797575;
+}
+.container .container-1 .verticle-line-2{
+    height: 110px;
+    border-left: 1px solid #797575;
+}
+.container .container-1 #icon-green{
+    color: rgb(41, 137, 99);
+}
+.container .container-1 #icon-red{
+    color: rgb(227, 43, 6);
+}
+.container .charts{
+    margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+.table{
+    margin-top: 0px;
+    height: 300px;
+    padding: 0px;
+}
+.table table{
+    width: 800px;
+    padding: 0px 10px;
+    height: 130px;
+   
+}
